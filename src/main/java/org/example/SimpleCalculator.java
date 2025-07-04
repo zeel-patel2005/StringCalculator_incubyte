@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 public class SimpleCalculator {
     public static int add(String numbers) {
+        if(numbers.isEmpty()) return 0;
         String delimiter = "[,\n]";
         if (numbers.startsWith("//")) {
             int index = numbers.indexOf("\n");
