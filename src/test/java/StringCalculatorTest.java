@@ -13,4 +13,6 @@ public class StringCalculatorTest {
     public void testSingleNumberReturnsValue() {
         assertEquals(1, SimpleCalculator.add("1"));
     }
+
+
 }
