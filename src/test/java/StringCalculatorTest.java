@@ -1,3 +1,4 @@
+import org.example.SimpleCalculator;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -5,6 +6,6 @@ import static org.junit.Assert.assertEquals;
 public class StringCalculatorTest {
     @Test
     public void testEmptyStringReturnsZero() {
-        assertEquals(0, calculator.add(""));
+        assertEquals(0, SimpleCalculator.add(""));
     }
 }
