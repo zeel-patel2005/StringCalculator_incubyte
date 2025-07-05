@@ -13,4 +13,4 @@ This project implements a String Calculator using Test-Driven Development (TDD).
 - Use `mvn test` (if using Maven) or run via IDE
 
 ## Screenshots
-![Test results](screenshots/test.png)
+![Test results](src/test/java/screenshort/img.png)
